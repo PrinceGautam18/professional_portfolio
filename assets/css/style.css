@@ -296,8 +296,8 @@ body.nav-active { overflow: hidden; }
   position: fixed;
   top: 0;
   left: -300px;
-  background-color:#78290f;
-  color: white;
+  background-color: var(--raisin-black);
+  color: var(--white);
   max-width: 300px;
   width: 100%;
   height: 100vh;
@@ -309,10 +309,6 @@ body.nav-active { overflow: hidden; }
   z-index: 2;
   visibility: hidden;
   transition: var(--transition-3);
-}
-.navbar a{
-color: white;
-  text-decoration: none;
 }
 
 .navbar.active {
@@ -350,9 +346,22 @@ color: white;
 
 .contact-link:is(:hover, :focus-visible) { color: var(--cinnamon-satin); }
 
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--raisin-black);
+  pointer-events: none;
+  opacity: 0;
+  transition: var(--transition-1);
+}
 
-
-
+.overlay.active {
+  pointer-events: all;
+  opacity: 0.8;
+}
 
 
 
