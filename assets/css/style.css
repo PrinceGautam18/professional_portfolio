@@ -985,7 +985,9 @@ input[type=text] {
     width: 100%;
     margin-inline: auto;
   }
-
+.navbar a{
+color:black;
+}
 
 
   /**
