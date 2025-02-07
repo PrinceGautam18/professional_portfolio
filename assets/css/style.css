@@ -301,7 +301,7 @@ body.nav-active { overflow: hidden; }
   position: fixed;
   top: 0;
   left: -300px;
-  background-color:#782900;
+  
   color: white;
   max-width:300px;
   width: 100%;
@@ -316,7 +316,7 @@ body.nav-active { overflow: hidden; }
   transition: var(--transition-3);
 }
 .navbar a{
-color: #000000;
+color: white;
   text-decoration: none;
 }
 
